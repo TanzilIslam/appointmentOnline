@@ -1,0 +1,29 @@
+.hr{
+    border: 1px solid black;
+   margin-right: 200px;
+   
+    
+    
+    
+}
+.center{
+    text-align: center;
+    margin-left: 100px;
+}
+.form{
+  
+    margin-left: 20px;
+    border: 1px solid cadetblue;
+  
+}
+.center2{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    font-size: 13px;
+    
+
+}
+.in{
+    width: 200px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Dentel Appoinment</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://kit.fontawesome.com/f537eed648.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row" style="margin-top: 20px">
+        <div class="col align-self-start" >
+            <a href="./index.html">
+                <i class="fas fa-arrow-alt-circle-left fa-2x"></i>
+            </a>
+            <div style="margin-left: 50px;">
+                    <img src="./assets/avater.jpg" class="img-fluid rounded-circle"  width="100" height="100" alt="Responsive image">
+                    <h5 style="margin-top: 20px;">Mika Suha</h5>
+                    <h5 style="margin-top: 10px;">2 Minute Demo</h2>
+                    <i  style="margin-top: 10px;" class="far fa-clock fa-1x"></i><span style="margin-left: 10px;">30 min</span>
+                    <p style="margin-top: 10px">A demo just take 2 minutes where u can easily make an online appoinment.It will save you time a lot </p>
+            </div>
+            
+        </div>
+        <div class="col align-self-center">
+        
+                    <!-- <input type="text" class="datepicker"> -->
+                    
+                          
+                  
+                                <label style="color: black; font-size: 15px; font-style: bold; " for="date">Select Date</label>
+                                <i   style="margin-left: 10px;cursor: pointer" class="far fa-calendar-alt fa-2x datepicker" name ="date"></i>
+                                
+                                <hr>
+                     
+                                <label style="color: black; font-size: 15px; font-style: bold; margin-top: 10px " for="date">Select Time</label>
+                                <i class="far fa-clock fa-2x timepicker" style="margin-left: 10px; margin-top:10px; cursor: pointer" ></i>
+                                <hr>
+                                <label style="color: black; font-size: 15px; font-style: bold;" for="date">Location</label>
+                                <i class="fas fa-search-location fa-2x"  onclick="getlocation()" style="margin-left: 25px; margin-top:10px; cursor: pointer; "></i>
+                 
+
+                    
+
+                    
+            </div>
+            <div class="col align-self-end">
+                    <div class="row">
+                            <div class="col">
+                               <h5>Date : </h5> 
+                            </div>
+                            <div class="col">
+                                <h5 class="date"></h5>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col">
+                                <h5>Time : </h5>
+                            </div>
+                            <div class="col">
+                                <h5 class="time">
+                                    <p id="demo"></p>
+                                </h5>
+                            </div>
+                          </div>
+                            <a href="./registration.html">
+                                <i class="far fa-arrow-alt-circle-right fa-2x"></i></a>
+                         
+
+            </div>
+           
+ 
+
+               
+            </div>
+              
+               
+        
+    </div>
+    
+   
+
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./js/calender.js"></script>
+</body>
+</html>                            
